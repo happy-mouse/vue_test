@@ -1,5 +1,8 @@
 <template>
-  <div>我是 火车王</div>
+  <div>
+    <div>我是 火车王</div>
+    <span>b修改2</span>
+  </div>
 </template>
 
 <script>
