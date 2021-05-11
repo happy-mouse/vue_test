@@ -1,18 +1,21 @@
 <template>
   <div>
-    <Box/>
+    <Box />
+    <Active />
   </div>
 </template>
 
 <script>
-import Box from './components/box.vue'
+import Box from "./components/box.vue";
+import Active from "./components/active.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    Box
-  }
-}
+    Box,
+    Active,
+  },
+};
 </script>
 
 <style>
